@@ -684,9 +684,16 @@ HELPER CLASSES
 	transform: translate(-50%, -50%);
 }
 
+.-impress-head{
+	color: #ffffff;
+	font-size:80px;
+	text-shadow: 0 0 8px #ffffff;
+	-moz-text-shadow: 0 0 8px #ffffff;
+	-webkit-text-shadow: 0 0 8px #ffffff;
+}
+
 .-yellow {
   color: #ffffff;
-	font-size:80px;
 	text-shadow: 0 0 8px #ffffff;
 	-moz-text-shadow: 0 0 8px #ffffff;
 	-webkit-text-shadow: 0 0 8px #ffffff;
