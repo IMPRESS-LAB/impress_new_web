@@ -2,6 +2,14 @@
 DEFAULT
 ***********************/
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
 	position: relative;
 	font-family: 'Roboto', sans-serif;
@@ -32,6 +40,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
+	font-family: 'FontAwesome';
 	font-size: 40px;
 	font-weight: 300;
 	letter-spacing: 0.05em;
@@ -247,8 +256,8 @@ NAVIGATION
 	color: #131316;
 }
 
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
 	background: #ffffff;
 	color: #131316;
@@ -345,7 +354,7 @@ BOOTSTRAP AFFIX
 ***********************/
 
 /*---------------------
-fix for the change of 
+fix for the change of
 main nav position
 ---------------------*/
 .nav-container {
@@ -677,7 +686,11 @@ HELPER CLASSES
 }
 
 .-yellow {
-	color: #0a4a9b;
+  color: #ffffff;
+	font-size:80px;
+	text-shadow: 0 0 8px #ffffff;
+	-moz-text-shadow: 0 0 8px #ffffff;
+	-webkit-text-shadow: 0 0 8px #ffffff;
 }
 
 .-white {
