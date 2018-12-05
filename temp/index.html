@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> Impress </title>
+
+
+ <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+ <script> 
+  function initialize() { 
+  var myLatlng = new google.maps.LatLng(37.375096, 126.632939); 
+  var mapOptions = { 
+        zoom: 14, 
+        center: myLatlng, 
+        mapTypeId: google.maps.MapTypeId.ROADMAP 
+  } 
+  var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+  var marker = new google.maps.Marker({ 
+            position: myLatlng, 
+            map: map, 
+            title:
+
+});  
+
+
+var infowindow = new google.maps.InfoWindow( 
+          { 
+            content: "Incheon National University", 
+            maxWidth: 200
+          } 
+); 
+
+google.maps.event.addListener(marker, 'click', function() { 
+ infowindow.open(map, marker); 
+}); 
+
+
+  } 
+ </script> 
+
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+	
+<body id="page-top" class="index" onload="initialize()">
+<font face="Calibri">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+             
+                <a class="navbar-brand" href="#page-top">IMPRESS</a>
+                </div>
+          
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="#page-top">HOME</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#research">RESEARCH</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#professor">PROFESSOR</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#publications">PUBLICATIONS</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="class.html">CLASS</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#members">MEMBERS</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="news.html">NEWS</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">IMPRESS LAB.</span>
+                        <span class="skills">Intelligent Multimedia Processing Laboratory</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Research Grid Section -->
+
+    <section id="research">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <span class="name1">Research</span>
+                    <span class="speech">
+                   <li>SPEECH PROCESSING / RECOGNITION</li>
+                    </span>
+                    <span class="speech1">
+                    <br>                 
+                     Automatic speech / speaker recognition
+                    <br>
+                     Speech Processing for medical applications
+                    <br><br><br>
+                    </span>
+                    <span class="speech">
+                   <li>HUMAN BEHAVIOR SIGNAL PROCESSING</li>
+                    </span>
+                    <span class="speech1">
+                    <br>
+                    In-vehicle human interface
+                    <br>
+                    Human emotion Processing
+                    <br><br><br>
+                    </span>
+                    <span class="speech">
+                   <li>INFORMATION RETRIEVAL SYSTEM</li>
+                    </span>
+                    <span class="speech1">
+                    <br>
+                    Multimedia / music retrieval system
+                    <br>
+                    Keyyword spotting / detection
+                    <br><br><br>
+                    </span>
+                    <span class="speech">
+                   <li>Pattern Recognition</li>
+                    </span>
+                    <span class="speech2">
+                    <br><br><br>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Professor Section -->
+    <section class="success" id="professor">
+        <div class="container">
+            <div class="row">
+                 <div class="col-lg-12">
+                    <h2>About PROFESSOR</h2>
+                    <div class="col-md-4">	
+                    <span class="professor1">
+                    </span>
+                    </div>
+                    <div class="col-md-4">
+               
+                    <span class="professor2">
+                    <span class="professor3">
+                    <em>Wooil Kim</em>
+                    </span>
+                    <span class="professor4">
+                    <br>Associate Professor
+                    <br>
+                    <a href="http://impress.inu.ac.kr"><u>IMPRESS Lab.</u></a>
+                    <br>
+                    <a href="http://www.inu.ac.kr/user/indexMain.do?siteId=isis"><u>Department of Computer Science & Engineering</u></a>
+                    <br>
+                    <a href="http://www.inu.ac.kr/mbshome/mbs/inu/index.do"><u>Incheon National University</u></a>, Incheon, Korea
+                    <br><br>
+                    <strong>Email:</strong> <u>wikim@inu.ac.kr</u>
+                    <br>
+                    <strong>Tel:</strong>  +82-32-835-8459
+
+                    </span>
+</span>
+            
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-11 col-lg-offset-1">
+                    <span class="professor5">
+                    Research Interests
+                    </span>
+                    <span class="professor6">
+                    <strong>1. Speech Processing / Recognition</strong>
+                    <span class="professor7">
+                    - large vocabulary continuous speech recognition system
+                    <br>- environmental robust processing for ASR, missing-feature theory
+                    </span>                   
+                    <strong>2. Human Behavior Sinal Processing </strong>
+                    <span class="professor7">                    
+                    - in-vehicle human interface, robust speech recognition for in-vehicle system
+                    <br>- human emotion processing, signal processing / estimation under cognitive stress / distraction
+                    <br>
+                    </span>                   
+                    <strong>3. Information Retrieval System</strong>
+                    <span class="professor7">   
+                    - multimedia / music information retrieval, spoken document retrieval
+                    <br>- keyword spotting / detection, data mining, dialog system                    
+                    <br>
+                    </span>                  
+                    <strong>4. Statistical Signal Processing, Pattern Recognition, Neural Network</strong>
+                    <br>                  
+                    </span>
+                    
+                    <br><br>
+                    <span class="professor5">
+                    Education and Experiences
+                    </span>
+                    <span class="professor6">
+                    <strong>1. Education</strong>
+                    <span class="professor7">
+                    Ph. D&nbsp;&nbsp; Electronics Engineering, Korea University, Seoul, Korea&nbsp;&nbsp;&nbsp;&nbsp;   (Aug. 2003)                                                                      
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Thesis: "Model-based Feature Compensation for Robust Speech Recognition
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in Adverse
+Environment"                                                                                                                                                                                                 
+                    <a href="http://libs.korea.ac.kr/search/detail/SATSDZ000015601194?#.V6iKd5uwdwV" style="color:#BCE485">&nbsp;&nbsp;&nbsp;&nbsp;<strong>[Link]</strong></a>                               
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Advised by Prof. Hanseok Ko                                                                                      
+                    <br>M. S.&nbsp;&nbsp;&nbsp;   Electronics Engineering, Korea University, Seoul, Korea&nbsp;&nbsp;&nbsp;&nbsp;   (Aug. 1998)
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Thesis: "Spectral Subtraction based on Phonemic and Auditory Properties"
+                    <a href="http://libs.korea.ac.kr/search/detail/SATSDZ000001797447?#.VuAK9fmLR1M" style="color:#BCE485">&nbsp;&nbsp;&nbsp;&nbsp;<strong>[Link]</strong></a>
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Advised by Prof. Hanseok Ko"
+                    <br>B. S.&nbsp;&nbsp;&nbsp;&nbsp;  Electronics Engineering, Korea University, Seoul, Korea&nbsp;&nbsp;&nbsp;&nbsp;   (Feb. 1996)
+                    </span>         
+                    <br>                 
+                    </span>
+                    <span class="professor6">
+                    <strong>2. Experiences</strong>
+                    <span class="professor7">
+                    Associate Professor, <a href="http://www.inu.ac.kr/user/indexMain.do?siteId=isis"><u>CSE</u></a>, <a href="http://www.inu.ac.kr/mbshome/mbs/inu/index.do"><u>Incheon National University</u></a>, Korea&nbsp;&nbsp;&nbsp;&nbsp;   (Oct. 2016 - Present)                                                                                                                                            
+                    <br>Assistance Professor, <a href="http://www.inu.ac.kr/user/indexMain.do?siteId=isis"><u>CSE</u></a>, <a href="http://www.inu.ac.kr/mbshome/mbs/inu/index.do"><u>Incheon National University</u></a>, Korea&nbsp;&nbsp;&nbsp;&nbsp;   (Aug. 2012 - Sept. 2016)
+                <br>Research Associate Professor, EE, <a href="http://www.utdallas.edu/"><u>University of Texas at Dallas</a></u>&nbsp;&nbsp;&nbsp;&nbsp;   (Approved, Aug. 2012)                                        <br>Research Assistant Professor, EE, <a href="http://www.utdallas.edu/"><u>University of Texas at Dallas</a></u>&nbsp;&nbsp;&nbsp;&nbsp;   (Sept. 2007 - Aug. 2012)                        
+                <br>Research Associate, EE, <a href="http://www.utdallas.edu/"><u>University of Texas at Dallas</u></a>&nbsp;&nbsp;&nbsp;&nbsp;   (Sept. 2005 - Aug. 2007)                              
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Supervised by <a href="http://crss.utdallas.edu/"><u>Prof. John H. L. Hansen</u></a>                            
+                    <br>Post-doctoral Researcher, <a href="http://www.ece.cmu.edu/"><u>ECE</u></a>, <a href="http://www.cmu.edu/"><u>Carnegie Mellon University</a></u>&nbsp;&nbsp;&nbsp;&nbsp;   (Sept. 2004 - Aug. 2005)
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- KOSEF program, supervised by <a href="http://www.cs.cmu.edu/~robust/"><u>Prof. Richard M. Stern</u></a>
+                    <br>Post-doctoral Researcher, <a href="http://ee.korea.ac.kr/"><u>EE</u>,</a> <a href="http://www.korea.ac.kr/mbshome/mbs/university/index.do"><u>Korea University</u></a> (Sept. 2003 - Aug. 2004)                                                                                                                                                                        
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- BK21 program, supervised by <a href="http://ispl.korea.ac.kr/xe/"><u>Prof. Hanseok Ko</u></a>                                       </span>         
+                    <br>                 
+                    </span>
+                    <br>
+                    <span class="professor5">
+                    <a href="C:\Users\kim jun hyuck\Desktop\startbootstrap-freelancer-gh-pages\startbootstrap-freelancer-gh-pages/class.html" style="color:#95C2FA" >Class Information &nbsp;&nbsp;&nbsp;&nbsp;<strong>[Link]</strong></a>
+                    </span>
+                        
+                </div>
+            </div>
+       </div>
+    </section>
+
+    <!-- Publications Grid Section -->
+
+    <section id="publications">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="name1">Publications</span>
+                    <span class="speech">
+                    <li><a href="ITJ.html" style="color:#00305B">INTERNATIONAL JOURNALS</a></li>
+                    <br>
+                    </span>
+                    <span class="speech">
+                    <li><a href="ITC.html" style="color:#00305B">INTERNATIONAL CONFERENCES</a></li>
+                    <br><br>
+                    </span>
+                    <span class="speech">
+                    <li><a href="DOJ.html" style="color:#00305B">DOMESTIC JOURNALS</a></li>
+                    <br>
+                    </span>
+                    <span class="speech">
+                    <li><a href="DOC.html" style="color:#00305B">DOMESTIC CONFERENCES</a></li>
+                    <br><br>
+                    </span>
+                    <span class="speech">
+                    <li><a href="PAT.html" style="color:#00305B">PATENTS</a></li>
+                    <br>
+                    </span>
+                    <span class="speech">
+                    <li><a href="BOOK.html" style="color:#00305B">BOOK CHAPTERS</a></li>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Members Section -->
+    <section class="members" id="members">
+        <div class="container">
+            <div class="row">
+                 <div class="col-lg-1s text-center"> 
+                    <h2>OUR MEMBERS</h2>
+                    <br><br><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 portfolio-item text-center">
+                    <img src="img/people/seji.jpg" class="img-responsive" alt="">
+                    <span class="name"><br>
+                    <h4>Seung-eun Ji</h4>
+                    <h4><small>M.S. Course</small></h4>
+                    <br><span style="text-decoration:overline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <h4>Tel: 010-9475-7930</h4>
+                    <h4>seji@inu.ac.kr</h4>
+                    </span>
+                </div>
+                <div class="col-sm-3 portfolio-item text-center">
+                    <img src="img/people/junhyuck.png" class="img-responsive" alt="">
+                    <span class="name"><br>
+                    <h4>Jun-hyuk Kim</h4>
+                    <h4><small>B.H. Course</small></h4>
+                    <br><span style="text-decoration:overline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <h4>Tel: 010-8910-8300</h4>
+                    <h4>gshe2007@naver.com</h4>
+                    </span>
+                </div>
+                <div class="col-sm-3 portfolio-item text-center">
+                    <img src="img/people/mjkim.png" class="img-responsive" alt="">
+                    <span class="name"><br>
+                    <h4>Min-ji Kim</h4>
+                    <h4><small>B.H. Course</small></h4>
+                    <br><span style="text-decoration:overline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <h4>Tel: 010-9030-7650</h4>
+                    <h4>tosls2010@naver.com</h4>
+                    </span>
+                </div>
+                <div class="col-sm-3 portfolio-item text-center">
+                    <img src="img/people/hsyou.jpg" class="img-responsive" alt="">
+                    <span class="name"><br>
+                    <h4>Hee-su You</h4>
+                    <h4><small>B.H. Course</small></h4>
+                    <br><span style="text-decoration:overline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <h4>Tel: 010-7732-7351</h4>
+                    <h4>yheesu0720@naver.com</h4>
+                    </span>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="row">
+                 <div class="col-lg-12 text-center"> 
+                    <span class="anyone">
+                    Anyone who has a passion for research,
+                    </span><br>                 
+                    <span class="anyone">
+                    please contact us!
+                    </span>
+                    <br><br>
+                </div>
+            </div>
+       </div>
+    </section>
+
+
+
+
+
+    <!-- Contact Section -->
+
+ <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+               
+                    <span class="name1">Contact</span>
+                    
+
+                    <span class="contact1">
+                    <strong>1. OUR ADDRESS </strong><br>
+                    <span class="contact2">
+                    <br>Intelligent Multimedia PROCESSing Laboratory
+                    <br>Room 07-506 / 07-526
+                    <br><strong>Email:</strong>&nbsp;&nbsp;wikim@inu.ac.kr
+                    <br><strong>Tel:</strong>&nbsp;&nbsp;&nbsp;+82-32-835-8459
+                    <br>
+                    <br>School of Computer Science and Engineering
+                    <br>Incheon National University
+                    <br>119 Academy-ro (Songdo-dong), Yeonsu-gu, Incheon, Korea
+ <br><br><br><div id="map_canvas"style="width:500px; height:200px;"></div> 
+
+                    </span>                    
+                  
+
+
+             
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                     
+                    <div class="footer-col col-md-8">
+                     <div class="he">
+                        <a href="#page-top"><img src="img/up.png" alt=""></a>
+                     </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                     <div class="he2">
+ <a href="http://www.inu.ac.kr/mbshome/mbs/inu/index.do"><img src="img/Inu-Signature.png" align="left" style="width:250px; height:40px;" alt=""></a>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</font>
+</body>
+</html>
