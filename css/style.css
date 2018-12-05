@@ -708,6 +708,10 @@ HELPER CLASSES
 .-white {
 	color: #ffffff;
 }
+.-blue{
+  color:#0a4a9b;
+  font-weight: bold;
+}
 
 .-black {
 	color: #131316;
