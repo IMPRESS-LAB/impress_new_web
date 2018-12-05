@@ -417,12 +417,12 @@ QUOTE SECTION
 ***********************/
 
 .quote {
-	min-height: 600px;
-	padding: 250px 0;
-	background: linear-gradient( rgba(10, 74, 155, 0.8), rgba(10, 74, 155, 0.8)), url('../img/about_bg.jpg');
+	min-height: 400px;
+	padding: 50px 0;
+	background: linear-gradient( rgba(10, 44, 125, 0.0), rgba(10, 44, 125, 0.0)), url('../img/wantyou.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .quote .h2 {
