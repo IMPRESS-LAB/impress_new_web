@@ -145,7 +145,7 @@ HOME SECTION
 	color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
-	border: 1px solid #0a4a9b;
+	border: 3px solid #ffffff;
 	outline: none;
 	-webkit-transform: perspective(1px) translateZ(0);
 	-moz-transform: perspective(1px) translateZ(0);
@@ -167,7 +167,7 @@ HOME SECTION
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #0a4a9b;
+	background: #ffffff;
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-ms-transform: scale(0);
@@ -181,7 +181,7 @@ HOME SECTION
 }
 
 .home .button:hover {
-	color: #131316;
+	color: #000000;
 }
 
 .home .button:hover:before {
@@ -205,7 +205,7 @@ NAVIGATION
 	margin-bottom: 0;
 	background: #ffffff;
 	border: none;
-	border-bottom: 1px solid #0a4a9b;
+	border-bottom: 7px solid #000F75;
 	border-radius: 0;
 }
 
@@ -258,10 +258,14 @@ NAVIGATION
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-	background: #ffffff;
-	color: #131316;
-	border: 1px solid #0a4a9b;
+	background: #000F75;
+	color: #ffffff;
+	border: 3px solid #000F75;
 }
+/*
+네비게이션 바에 있는 버튼 테두리 크기 변경하는 곳
+*/
+
 
 /**********************
 NAVIGATION TOGGLE
@@ -388,7 +392,7 @@ ABOUT SECTION
 	content: '';
 	margin: 0 16px 0 0;
 	padding: 12px;
-	border-right: 1px solid #0a4a9b;
+	border-right: 5px solid #0a4a9b;
 	color: #0a4a9b;
 	font-size: 25px;
 	font-weight: 300;
