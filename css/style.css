@@ -723,6 +723,18 @@ HELPER CLASSES
   font-weight: bold;
   font-size: 17px
 }
+.-blackList li{
+  color: #131316;
+  font-weight: bold;
+  font-size: 17px
+}
+.-blackSmall {
+  color: #131316;
+  font-size: 14px
+}
+.-linkBlue a{
+  color:#0a4a9b;
+}
 
 /**********************
 RESPONSIVE
